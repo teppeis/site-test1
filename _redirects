@@ -8,3 +8,6 @@ google            https://www.google.com
 
 # This will redirect all paths under /jobs except the path above
 /jobs/*                        /careers/:splat
+
+/articles id=:id tag=:tag /posts/:tag/:id 301
+/articles id=:id tag=:tag /posts?foo=bar&:tag=:id
