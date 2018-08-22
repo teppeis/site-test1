@@ -2,3 +2,9 @@
 /blog/my-post.php  /blog/my-post
 /news
 google            https://www.google.com
+
+# This will redirect /jobs/customer-ninja-rockstar
+/jobs/customer-ninja-rockstar  /careers/support-engineer
+
+# This will redirect all paths under /jobs except the path above
+/jobs/*                        /careers/:splat
